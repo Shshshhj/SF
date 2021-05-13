@@ -33,7 +33,7 @@ async def button(bot, update: CallbackQuery):
         else:
             await bot.answer_callback_query(
                 callback_query_id=update.id,
-                text="who are you? 🤪🤔🤔🤔",
+                text="Not for U🤭",
                 show_alert=True,
                 cache_time=0,
             )
@@ -83,7 +83,7 @@ async def button(bot, update: CallbackQuery):
         else:
             await bot.answer_callback_query(
                 callback_query_id=update.id,
-                text="who are you? 🤪🤔🤔🤔",
+                text="Not for u🤭",
                 show_alert=True,
                 cache_time=0,
             )
